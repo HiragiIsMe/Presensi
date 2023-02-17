@@ -1,0 +1,13 @@
+C:\Users\PC 08\source\repos\Absensi\Absensi\bin\Debug\Absensi.exe.config
+C:\Users\PC 08\source\repos\Absensi\Absensi\bin\Debug\Absensi.exe
+C:\Users\PC 08\source\repos\Absensi\Absensi\bin\Debug\Absensi.pdb
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.csproj.AssemblyReference.cache
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.Properties.Resources.resources
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.csproj.GenerateResource.cache
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.csproj.CoreCompileInputs.cache
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.exe
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.pdb
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.MainLogin.resources
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.MainAdmin.resources
+C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.MasterEmployee.resources
