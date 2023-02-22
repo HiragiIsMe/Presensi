@@ -11,3 +11,17 @@ C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.pdb
 C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.MainLogin.resources
 C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.MainAdmin.resources
 C:\Users\PC 08\source\repos\Absensi\Absensi\obj\Debug\Absensi.MasterEmployee.resources
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\bin\Debug\Absensi.exe
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\bin\Debug\Absensi.pdb
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.csproj.AssemblyReference.cache
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.csproj.SuggestedBindingRedirects.cache
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.MainAdmin.resources
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.MainLogin.resources
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.MasterEmployee.resources
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.Properties.Resources.resources
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.csproj.GenerateResource.cache
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.csproj.CoreCompileInputs.cache
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.exe
+C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.pdb
+C:\Users\SMKN 1 BONDOWOSO\source\repos\Presensi\Absensi\obj\Debug\Absensi.EmployeeForm.resources
+C:\Users\SMKN 1 BONDOWOSO\source\repos\Presensi\Absensi\obj\Debug\Absensi.MasterJabatan.resources

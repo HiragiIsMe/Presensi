@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -10,9 +12,21 @@ namespace Absensi
 {
     class Connection
     {
-        public static string connection = @"Data Source=DESKTOP-HUJGH1E\SQLEXPRESS;Initial Catalog=PresensiDB;Integrated Security=True";
+        public static string connection = @"Data Source=LAPTOP-S8UCE514;Initial Catalog=Presensi;Integrated Security=True";
 
         public static SqlConnection conn = new SqlConnection(connection);
+
+        public static DataTable getdata(string query)
+        {
+            SqlCommand cmd = new SqlCommand(query, conn);
+            conn.Open();
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            conn.Close();
+
+            return dt;
+        }
     }
 
     class Enc
@@ -26,6 +40,13 @@ namespace Absensi
 
                 return password;
             }
+        }
+
+        public static byte[] Encode(Image img)
+        {
+            ImageConverter convert = new ImageConverter();
+            byte[] image = (byte[])convert.ConvertTo(img, typeof(byte[]));
+            return image;
         }
     }
 

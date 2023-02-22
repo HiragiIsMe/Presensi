@@ -40,5 +40,17 @@ namespace Absensi
             panelMain.Controls.Add(employee);
             employee.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MasterJabatan jabatan = new MasterJabatan()
+            {
+                TopLevel = false,
+                TopMost = true
+            };
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(jabatan);
+            jabatan.Show();
+        }
     }
 }
