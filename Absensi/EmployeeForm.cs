@@ -73,13 +73,14 @@ namespace Absensi
                 {
                     try
                     {
-                        SqlCommand cmd = new SqlCommand("insert into Employee values(@nama,@jk,@nohp,@alamat,@id_jabatan,@foto)", Connection.conn);
+                        SqlCommand cmd = new SqlCommand("insert into Employee values(@nama,@jk,@nohp,@alamat,@id_jabatan,@foto,@rfid)", Connection.conn);
                         cmd.Parameters.AddWithValue("@nama", textBoxNama.Text);
                         cmd.Parameters.AddWithValue("@jk", comboBoxJk.SelectedValue);
                         cmd.Parameters.AddWithValue("@nohp", textBoxNohp.Text);
                         cmd.Parameters.AddWithValue("@alamat", richTextBoxAlamat.Text);
                         cmd.Parameters.AddWithValue("@id_jabatan", comboBoxJabatan.SelectedValue);
                         cmd.Parameters.AddWithValue("@foto", Enc.Encode(pictureBox1.Image));
+                        cmd.Parameters.AddWithValue("@rfid", textBoxRfid.Text);
 
                         Connection.conn.Open();
                         cmd.ExecuteNonQuery();
@@ -98,13 +99,14 @@ namespace Absensi
 
                 if(textBox1.Text == "update")
                 {
-                    SqlCommand cmd = new SqlCommand("update Employee set nama=@nama, jenis_kelamin=@jk, no_hp=@nohp, alamat=@alamat, id_jabatan=@id_jabatan, foto=@foto where id="+ textBoxId.Text +"", Connection.conn);
+                    SqlCommand cmd = new SqlCommand("update Employee set nama=@nama, jenis_kelamin=@jk, no_hp=@nohp, alamat=@alamat, id_jabatan=@id_jabatan, foto=@foto, rfid=@rfid where id="+ textBoxId.Text +"", Connection.conn);
                     cmd.Parameters.AddWithValue("@nama", textBoxNama.Text);
                     cmd.Parameters.AddWithValue("@jk", comboBoxJk.SelectedValue);
                     cmd.Parameters.AddWithValue("@nohp", textBoxNohp.Text);
                     cmd.Parameters.AddWithValue("@alamat", richTextBoxAlamat.Text);
                     cmd.Parameters.AddWithValue("@id_jabatan", comboBoxJabatan.SelectedValue);
                     cmd.Parameters.AddWithValue("@foto", Enc.Encode(pictureBox1.Image));
+                    cmd.Parameters.AddWithValue("@rfid", textBoxRfid.Text);
 
                     Connection.conn.Open();
                     cmd.ExecuteNonQuery();

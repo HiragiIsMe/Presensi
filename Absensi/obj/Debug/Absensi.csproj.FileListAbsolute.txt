@@ -25,3 +25,5 @@ C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.exe
 C:\Users\SMKN 1 BONDOWOSO\Source\Repos\Presensi\Absensi\obj\Debug\Absensi.pdb
 C:\Users\SMKN 1 BONDOWOSO\source\repos\Presensi\Absensi\obj\Debug\Absensi.EmployeeForm.resources
 C:\Users\SMKN 1 BONDOWOSO\source\repos\Presensi\Absensi\obj\Debug\Absensi.MasterJabatan.resources
+C:\Users\SMKN 1 BONDOWOSO\source\repos\Presensi\Absensi\obj\Debug\Absensi.MainAbsensi.resources
+C:\Users\SMKN 1 BONDOWOSO\source\repos\Presensi\Absensi\obj\Debug\Absensi.MasterPresensi.resources

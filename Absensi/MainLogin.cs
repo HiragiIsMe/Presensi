@@ -108,5 +108,12 @@ namespace Absensi
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MainAbsensi absensi = new MainAbsensi();
+            this.Hide();
+            absensi.Show();
+        }
     }
 }

@@ -52,5 +52,17 @@ namespace Absensi
             panelMain.Controls.Add(jabatan);
             jabatan.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MasterPresensi presensi = new MasterPresensi()
+            {
+                TopLevel = false,
+                TopMost = true
+            };
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(presensi);
+            presensi.Show();
+        }
     }
 }

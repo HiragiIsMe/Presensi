@@ -119,8 +119,8 @@ namespace Absensi
                 form.textBoxNohp.Text = reader.GetString(3);
                 form.richTextBoxAlamat.Text = reader.GetString(4);
                 form.comboBoxJabatan.SelectedValue = reader.GetInt32(5);
-                form.comboBoxJabatan.Text = reader.GetString(8);
-
+                form.comboBoxJabatan.Text = reader.GetString(9);
+                form.textBoxRfid.Text = reader.GetString(7);
                 MemoryStream memoryStream = new MemoryStream((byte[])reader["foto"]);
                 form.pictureBox1.Image = Image.FromStream(memoryStream);
                 form.pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
